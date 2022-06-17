@@ -293,7 +293,7 @@ class OfdParser:
                                 if 'DeltaY' in second_header:
                                     TextCode_temp.set_select_DeltaY(second_header[1])
                             Text_temp.set_TextCode(TextCode_temp)
-                        pageblock.set_TextObject(Text_temp)
+                    pageblock.set_TextObject(Text_temp)
 
                 if 'ImageObject' in obj.tag:
                     Image_temp = CT_Image()
